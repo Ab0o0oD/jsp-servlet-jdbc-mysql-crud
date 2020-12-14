@@ -21,8 +21,7 @@ public class Employee implements Serializable {
 
     }
 
-    public Employee(int id, String firstName, String lastName, String email, String password) {
-        this.id = id;
+    public Employee( String firstName, String lastName, String email, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -63,5 +62,16 @@ public class Employee implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

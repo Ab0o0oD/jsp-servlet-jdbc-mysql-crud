@@ -8,6 +8,7 @@
           <element id="module-output" name="jsp-servlet-jdbc-mysql-crud-example" />
         </element>
       </element>
+      <element id="javaee-facet-classes" facet="jsp-servlet-jdbc-mysql-crud-example/web/Web" />
     </root>
   </artifact>
 </component>
